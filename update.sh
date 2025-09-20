@@ -35,7 +35,7 @@ if [[ ! -d ./chipper ]]; then
 fi
 
 git fetch --all
-git reset --hard origin/main
+git reset --hard origin/personal-development
 if [[ -f ./chipper/chipper ]]; then
     cd chipper
     source source.sh
